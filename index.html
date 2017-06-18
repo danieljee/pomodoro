@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script src ="./script.js"></script>
+	</head>
+	<body>
+		<div class="container text-center">
+			<h1><b>Pomodoro Clock</b></h1>
+			<div class="row a">
+				<div class="col-md-6">
+					<p>BREAK LENGTH: <span id='break'>0</span></p>
+					<input id='breakRange' type='range' min='1' value='30' max='100'>
+				</div>
+				<div class="col-md-6">
+					<p>SESSION LENGTH: <span id='session'></span></p>
+					<input id='sessionRange' type='range' min='1' value='10' max='25'>
+				</div>
+			</div>
+			<div id='clockDiv'>
+				<a href='' id ='clickable'></a>
+				<h2 id='sessionType'>Session</h2>
+				<h2 id='time'></h2>
+			</div>
+			<p>Made by Daniel Jee</p>
+		</div>
+	</body>
+</html>
